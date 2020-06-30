@@ -9,4 +9,4 @@ const playlistSchema=mongoose.Schema({
     Title:String
 })
 
-module.export=mongoose.model('playlist',playlistSchema)
+module.exports=mongoose.model('playlist',playlistSchema)

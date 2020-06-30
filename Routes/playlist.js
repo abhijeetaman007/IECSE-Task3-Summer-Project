@@ -11,8 +11,8 @@ router.post('/add', async (req,res)=>{
 
     })
  try{
-    const savedplaylist= await song.save();
-    res.status(200).json(playlist);
+    const savedplaylist= await myplaylist.save();
+    res.status(200).json(myplaylist);
  }
  catch(err){
     res.json({message: err});
